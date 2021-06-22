@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.main-title {
+  margin: 15px 0 60px;
+  font-size: 7vw;
+  font-family: 'Lobster', cursive;
+}
+
+.product-wrapper {
+  margin-bottom: 30px;
+  padding: 20px 0 0;
+  border: 1px solid #9DC098;
+
+}
+
+.product-img {
+  display: block;
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.additional-info-wrapper {
+  margin: 20px 0 0;
+  padding: 20px 0;
+  color: #fff;
+  background-color: #9DC098;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.currency {
+  margin: 15px 0 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.price {
+  margin: 10px 0 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-title {
+    font-size: 11vw;
+  }
+}
